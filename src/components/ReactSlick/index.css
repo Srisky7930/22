@@ -1,0 +1,62 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-container {
+  width: 340px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .slick-container {
+    width: 1000px;
+    max-width: 1100px;
+    margin-top: 10px;
+  }
+}
+
+.logo-image {
+  margin: 0px 10px;
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+}
+@media screen and (min-width: 768px) {
+  .logo-image {
+    margin: 0px 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+  }
+}
+
+.name {
+  font-size: 13px;
+  font-family: Roboto;
+  flex-wrap: wrap;
+  color: black;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 14px;
+    font-family: Roboto;
+    color: black;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}

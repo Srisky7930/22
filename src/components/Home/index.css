@@ -1,0 +1,123 @@
+.home-main-container {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-main-container {
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-feeds-list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.loader-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .loader-container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.search-heading {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .search-heading {
+    display: flex;
+    align-self: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #262626;
+    margin-left: 10px;
+  }
+}
+
+.search-not-found-image {
+  height: 210px;
+  width: 258.0009460449219px;
+  left: 51px;
+  top: 190px;
+  border-radius: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-not-found-image {
+    height: 409px;
+    width: 500.0003967285156px;
+  }
+}
+
+.search-not-found-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #262626;
+}
+
+@media screen and (min-width: 768px) {
+  .search-not-found-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #262626;
+  }
+}
+
+.search-not-found-para {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #989898;
+}
+
+@media screen and (min-width: 768px) {
+  .search-not-found-para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #989898;
+  }
+}
